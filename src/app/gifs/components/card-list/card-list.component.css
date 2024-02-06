@@ -1,0 +1,10 @@
+.fixed-size-image {
+  width: 200px; /* Establece aquí el ancho deseado para todas las imágenes */
+  height: 200px; /* Establece aquí el alto deseado para todas las imágenes */
+  object-fit: cover;
+}
+
+.card-wrapper {
+  width: 260px; /* Establece aquí el ancho deseado para todas las cards */
+  height: 300px; /* Establece aquí el alto deseado para todas las cards */
+}
