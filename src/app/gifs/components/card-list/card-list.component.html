@@ -1,11 +1,14 @@
 <div class="row">
+  @for (gif of gifs; track $index) {
+
   <div class="col-md-3 col-sm-6">
     <div class="text-center card mb-2 bg-dark">
       <!-- Todo: crear imagen -->
 
       <div class="card-body text-white">
-        <p class="card-text">Hola mundo</p>
+        <p class="card-text">{{ gif.title }}</p>
       </div>
     </div>
   </div>
+  }
 </div>
