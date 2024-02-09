@@ -1,3 +1,4 @@
+
 import { Component, Input } from '@angular/core';
 import { Gif } from '../../interfaces/gifs.interfaces';
 
